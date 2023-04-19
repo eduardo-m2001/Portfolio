@@ -1,11 +1,12 @@
 import { Container } from './styles'
 import backgroundImg from "../../assets/images/about.jpg"
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di"
-import { SiTypescript } from "react-icons/si"
+import { SiTypescript, SiTailwindcss } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 import { FaNode } from "react-icons/fa"
 import { FiFigma } from "react-icons/fi"
 import { BsBootstrapFill } from "react-icons/bs"
+import { SiMysql } from "react-icons/si"
 
 
 import { Footer } from '../../components/footer'
@@ -38,7 +39,7 @@ export function Skills() {
               
               <div className="box">
               <DiReact className='icon'/>
-               <span>React</span>
+               <span>Reactjs</span>
               </div>
               
               <div className="box">
@@ -69,6 +70,16 @@ export function Skills() {
               <div className="box">
               <BsBootstrapFill className='icon'/>
                <span>Bootstrap</span>
+              </div>
+              
+              <div className="box">
+              <SiMysql className='icon'/>
+               <span>MySQL</span>
+              </div>
+              
+              <div className="box">
+              <SiTailwindcss className='icon'/>
+               <span>Tailwind</span>
               </div>
 
 

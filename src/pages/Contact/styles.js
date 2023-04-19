@@ -39,11 +39,12 @@ export const Container = styled.div`
   }
 
 
-    .banner {
-        position: absolute;
-        top: 30%;
-        left: 15%;
-    }
+  .banner {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    
+}
 
     .banner h1 {
         color: #ffffff;
@@ -64,19 +65,81 @@ export const Container = styled.div`
         filter: brightness(1.7);
     }
 
-    .banner p {
-        font-family: var(--font-secundary);
-        color: rgba(255, 255, 255, 0.87);
-        font-size: 2rem;
-        text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
-        margin-bottom: 2rem;
-        animation: moveBanner 1s 0.7s forwards;
-        opacity: 0;
-        max-width: 57rem;
-        margin-bottom: 2rem;
+.banner .cadastro-p {
+    font-family: var(--font-secundary);
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
+    margin-bottom: 1rem;
+    animation: moveBanner 1s 0.7s forwards;
+    opacity: 0;
+    margin-bottom: 4rem;
+}
+
+.banner input{
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: var(--font-secundary);
+    font-weight: 200;
+    line-height: 2rem;
+    width: 25rem;
+    margin-bottom: 2rem;
+    animation: moveBanner 1s 0.5s forwards;
+    opacity: 0;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding: .5rem 1rem;
+}
+
+.cadastro {
+    color: rgba(231, 231, 231, 0.897);
+    font-size: 1rem;
+    font-family: var(--font-secundary);
+    line-height: 2rem;
+    animation: moveBanner 1s 0.5s forwards;
+    opacity: 0;
+    border: none;
+    border-radius: 1rem;
+    
+    > label {
+        font-size: 1.2rem;
+        margin-right: 1rem;
     }
 
-    .banner button {
+}
+
+
+
+::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+
+.banner input[type=submit] {
+    font-family: var(--font-action);
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    background: #8E2DE2; 
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    padding: 0.7rem;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    animation: moveBanner 1s 0.9s forwards;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.banner input[type=submit]:hover {
+    filter: brightness(1.4);
+
+}
+
+.banner button {
         font-family: var(--font-primary);
         color: #ffffff;
         font-size: 1.3rem;
@@ -85,7 +148,7 @@ export const Container = styled.div`
         background: #8E2DE2; 
         background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
         background: linear-gradient(to right, #4A00E0, #8E2DE2);
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
         border-radius: 5px;
         border: none;
         cursor: pointer;
@@ -98,14 +161,15 @@ export const Container = styled.div`
         filter: brightness(1.6);
     }
 
-    @keyframes moveBanner {
-        0% {
-            transform: translateY(10rem) rotateY(-30deg);
-        }
-        100% {
-            transform:translateY(0) rotateY(0);
-            opacity: 1;
-        }
-
+@keyframes moveBanner {
+    0% {
+        transform: translateY(10rem) rotateY(-30deg);
     }
+    100% {
+        transform:translateY(0) rotateY(0);
+        opacity: 1;
+    }
+
+}
+
 `

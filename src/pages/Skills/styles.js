@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
  width: 100%;
   height: 100vh;
-
+    
 
 
     > main {
@@ -25,6 +25,7 @@ export const Container = styled.div`
       object-fit: cover;
       opacity: 0.3;
       animation: zoom 18s;
+
   }
 
   @keyframes zoom {
@@ -39,15 +40,23 @@ export const Container = styled.div`
   }
 
 
-    .skills {
-        position: absolute;
-        top: 45%;
-        left: 11%;
+  .skills {
+   position: absolute;
+   top: 20%;
+   left: 0;
+   right: 0;
+   bottom: 20%;
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
+    max-width: 70rem;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+
+    animation: moveBanner 1s 0.7s forwards;
+    opacity: 0;
+
 
         > .box {
             width: 11rem;
@@ -83,6 +92,7 @@ export const Container = styled.div`
         
     }
 
+
     @keyframes moveBanner {
         0% {
             transform: translateY(10rem) rotateY(-30deg);
@@ -93,4 +103,21 @@ export const Container = styled.div`
         }
 
     }
+
+    @media only screen and (max-width: 565px) {
+
+    .skills {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+    @media only screen and (max-width: 400px) {
+
+    .skills {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    }
+
 `
