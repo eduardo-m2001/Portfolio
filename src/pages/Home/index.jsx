@@ -2,6 +2,7 @@ import { Container } from './styles'
 import backgroundImg from "../../assets/images/portifolio.jpg"
 import { Footer } from '../../components/footer'
 import { Menu } from '../../components/Menu'
+import { Link } from 'react-router-dom';
 
 
 export function Home() {
@@ -45,7 +46,7 @@ export function Home() {
               <span>.</span>
             </h1>
                     <p>Desenvolvedor Front-End.</p>
-                    <button>Saiba mais</button>
+                    <button><Link to="/about">Saiba mais</Link></button>
             </div>
           </main>
 

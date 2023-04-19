@@ -39,63 +39,48 @@ export const Container = styled.div`
   }
 
 
-    .banner {
+    .skills {
         position: absolute;
-        top: 30%;
-        left: 15%;
-    }
+        top: 45%;
+        left: 11%;
 
-    .banner h1 {
-        color: #ffffff;
-        font-size: 5rem;
-        font-family: var(--font-primary);
-        font-weight: 200;
-        text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
-        line-height: 5.5rem;
-        margin-bottom: 2rem;
-        animation: moveBanner 1s 0.5s forwards;
-        opacity: 0;
-    }
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
 
-    h1 span:hover {
-        color: #6a3093;  
-        cursor: pointer;
-        font-size: 6rem;
-        filter: brightness(1.7);
-    }
+        > .box {
+            width: 11rem;
+            height: 11rem;
+            background-color: #190b23;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: .5rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            margin: 0 auto;
 
-    .banner p {
-        font-family: var(--font-secundary);
-        color: rgba(255, 255, 255, 0.87);
-        font-size: 2rem;
-        text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
-        margin-bottom: 2rem;
-        animation: moveBanner 1s 0.7s forwards;
-        opacity: 0;
-        max-width: 57rem;
-        margin-bottom: 2rem;
-    }
+            > span {
+            font-family: var(--font-primary);
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.87);
+            }
 
-    .banner button {
-        font-family: var(--font-primary);
-        color: #ffffff;
-        font-size: 1.3rem;
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-        background: #8E2DE2; 
-        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
-        background: linear-gradient(to right, #4A00E0, #8E2DE2);
-        padding: 1rem 3rem;
-        border-radius: 5px;
-        border: none;
-        cursor: pointer;
-        animation: moveBanner 1s 0.9s forwards;
-        opacity: 0;
-        transition: all .2s ease-in-out;
-    }
+            > .icon {
+                font-size: 4rem;
+                color: rgba(255, 255, 255, 0.87);
+            }
+        }
 
-    .banner button:hover {
-        filter: brightness(1.6);
+        > .box:hover {
+            filter: brightness(2);
+            transform: scale(1.2); 
+            transition: .5s;
+       }
+
+        
     }
 
     @keyframes moveBanner {

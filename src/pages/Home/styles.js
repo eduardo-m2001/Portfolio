@@ -85,13 +85,23 @@ export const Container = styled.div`
         background: #8E2DE2; 
         background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
         background: linear-gradient(to right, #4A00E0, #8E2DE2);
-        padding: 1rem 3rem;
+        padding: 1rem 2rem;
         border-radius: 5px;
         border: none;
         cursor: pointer;
         animation: moveBanner 1s 0.9s forwards;
         opacity: 0;
         transition: all .2s ease-in-out;
+    }
+    
+    .banner button a {
+        font-family: var(--font-primary);
+        color: #ffffff;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        border: none;
+        cursor: pointer;
     }
 
     .banner button:hover {
