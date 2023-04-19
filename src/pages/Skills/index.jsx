@@ -1,11 +1,11 @@
 import { Container } from './styles'
 import backgroundImg from "../../assets/images/about.jpg"
 import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di"
-import { SiTypescript, SiTailwindcss } from "react-icons/si"
+import { SiTypescript, SiTailwindcss, SiAdobephotoshop } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 import { FaNode } from "react-icons/fa"
 import { FiFigma } from "react-icons/fi"
-import { BsBootstrapFill } from "react-icons/bs"
+import { BsBootstrapFill, BsGit, BsGithub } from "react-icons/bs"
 import { SiMysql } from "react-icons/si"
 
 
@@ -63,8 +63,8 @@ export function Skills() {
               </div>
               
               <div className="box">
-              <FiFigma className='icon'/>
-               <span>Figma</span>
+              <SiMysql className='icon'/>
+               <span>MySQL</span>
               </div>
               
               <div className="box">
@@ -73,13 +73,28 @@ export function Skills() {
               </div>
               
               <div className="box">
-              <SiMysql className='icon'/>
-               <span>MySQL</span>
+              <SiTailwindcss className='icon'/>
+               <span>Tailwind</span>
               </div>
               
               <div className="box">
-              <SiTailwindcss className='icon'/>
-               <span>Tailwind</span>
+              <FiFigma className='icon'/>
+               <span>Figma</span>
+              </div>
+              
+              <div className="box">
+              <BsGithub className='icon'/>
+               <span>GitHub</span>
+              </div>
+              
+              <div className="box">
+              <BsGit className='icon'/>
+               <span>Git</span>
+              </div>
+              
+              <div className="box">
+              <SiAdobephotoshop className='icon'/>
+               <span>Photoshop</span>
               </div>
 
 

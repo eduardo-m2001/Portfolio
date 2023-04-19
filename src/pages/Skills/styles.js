@@ -51,7 +51,7 @@ export const Container = styled.div`
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
 
     animation: moveBanner 1s 0.7s forwards;
@@ -104,6 +104,12 @@ export const Container = styled.div`
 
     }
 
+    @media only screen and (max-width: 730px) {
+
+    .skills {
+        grid-template-columns: repeat(4,1fr);
+    }
+}
     @media only screen and (max-width: 565px) {
 
     .skills {
