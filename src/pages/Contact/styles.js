@@ -139,6 +139,15 @@ export const Container = styled.div`
 
 }
 
+.contact {
+    display: flex;
+    align-items: self-end;
+    gap: 3rem;
+    animation: moveBanner 1s 0.9s forwards;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
 .banner button {
         font-family: var(--font-primary);
         color: #ffffff;
@@ -148,18 +157,27 @@ export const Container = styled.div`
         background: #8E2DE2; 
         background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  
         background: linear-gradient(to right, #4A00E0, #8E2DE2);
-        padding: 1rem 2rem;
+        padding: 1rem 1.5rem;
         border-radius: 5px;
         border: none;
         cursor: pointer;
-        animation: moveBanner 1s 0.9s forwards;
-        opacity: 0;
-        transition: all .2s ease-in-out;
     }
 
     .banner button:hover {
         filter: brightness(1.6);
     }
+
+    a {
+        color: white;
+        font-size: 2.3rem;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: #8E2DE2;
+        }
+
 
 @keyframes moveBanner {
     0% {

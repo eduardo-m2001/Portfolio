@@ -2,6 +2,7 @@ import { Container } from './styles'
 import backgroundImg from "../../assets/images/about.jpg"
 import { Footer } from '../../components/footer'
 import { Menu } from '../../components/Menu'
+import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from "react-icons/ai";
 
 export function Contact() {
   return (
@@ -48,7 +49,12 @@ export function Contact() {
               <input type="email" name="email" placeholder="Digite seu email." />
             </div>
 
+           <div className="contact">
             <button>Enviar</button>
+
+            <a href=""><AiFillLinkedin /></a>
+            <a href=""><AiOutlineWhatsApp /></a>
+           </div>
             
         </div>
           </main>

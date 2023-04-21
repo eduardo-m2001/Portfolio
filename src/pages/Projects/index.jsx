@@ -50,8 +50,8 @@ export function Projects() {
                    <span>RocketFood</span>
 
                    <div className="btn">
-                    <button><a href="">SITE</a></button>
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://rocket-foodexplorer.netlify.app/">SITE</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/food-explorer-frontend">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -68,8 +68,8 @@ export function Projects() {
                    <span>Games</span>
 
                    <div className="btn">
-                    <button><a href="">SITE</a></button>
-                    <button><a href="">REPOSITÒRIO</a></button>
+
+                    <button><a href="https://github.com/eduardo-m2001/games">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -86,8 +86,7 @@ export function Projects() {
                    <span>RocketMovies</span>
 
                    <div className="btn">
-                   <button><a href="">Site</a></button>
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/rocket-movies-Front-End">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -104,7 +103,7 @@ export function Projects() {
                    <span>Bateria</span>
 
                    <div className="btn">
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/bateria-de-musica">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -121,7 +120,7 @@ export function Projects() {
                    <span>My Notes</span>
 
                    <div className="btn">
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/Front-End-RocketNotes">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -138,7 +137,7 @@ export function Projects() {
                    <span>FocusTimer</span>
 
                    <div className="btn">
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/Focus-Time-3.0">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>
@@ -155,7 +154,7 @@ export function Projects() {
                    <span>IMC</span>
 
                    <div className="btn">
-                    <button><a href="">REPOSITÒRIO</a></button>
+                    <button><a href="https://github.com/eduardo-m2001/imc-calculator">REPOSITÒRIO</a></button>
                    </div>
 
                 </div>

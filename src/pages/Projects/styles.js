@@ -98,7 +98,7 @@ export const Container = styled.div`
       > .description {
          position: absolute;
          display: flex;
-         gap: 3rem;
+         gap: 2rem;
          align-items: center;
          justify-content: center;
          bottom: 0;
