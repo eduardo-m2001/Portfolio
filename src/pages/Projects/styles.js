@@ -75,8 +75,8 @@ export const Container = styled.div`
 
    .box {
     position: relative;
-    width: 25rem;
-    height: 30rem;
+    width: 33rem;
+    height: 38rem;
     background-color: #190b23;
     display: flex;
     align-items: center;
