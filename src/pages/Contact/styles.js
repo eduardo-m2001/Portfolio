@@ -48,7 +48,7 @@ export const Container = styled.div`
 
     .banner h1 {
         color: #ffffff;
-        font-size: 5rem;
+        font-size: 8rem;
         font-family: var(--font-primary);
         font-weight: 200;
         text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
@@ -61,14 +61,14 @@ export const Container = styled.div`
     h1 span:hover {
         color: #6a3093;  
         cursor: pointer;
-        font-size: 6rem;
+        font-size: 8rem;
         filter: brightness(1.7);
     }
 
 .banner .cadastro-p {
     font-family: var(--font-secundary);
     color: rgba(255, 255, 255, 1);
-    font-size: 2rem;
+    font-size: 4rem;
     text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
     margin-bottom: 1rem;
     animation: moveBanner 1s 0.7s forwards;
@@ -89,7 +89,7 @@ export const Container = styled.div`
     border: none;
     border-radius: 1rem;
     padding-left: 1rem;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
 }
 
 .cadastro {
@@ -103,7 +103,7 @@ export const Container = styled.div`
     border-radius: 1rem;
     
     > label {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         margin-right: 1rem;
     }
 
