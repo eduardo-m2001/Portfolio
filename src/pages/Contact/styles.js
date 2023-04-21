@@ -48,7 +48,7 @@ export const Container = styled.div`
 
     .banner h1 {
         color: #ffffff;
-        font-size: 8rem;
+        font-size: 6rem;
         font-family: var(--font-primary);
         font-weight: 200;
         text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
@@ -68,9 +68,8 @@ export const Container = styled.div`
 .banner .cadastro-p {
     font-family: var(--font-secundary);
     color: rgba(255, 255, 255, 1);
-    font-size: 4rem;
+    font-size: 3rem;
     text-shadow: .2rem .3rem 2px rgba(0,0,0,.4);
-    margin-bottom: 1rem;
     animation: moveBanner 1s 0.7s forwards;
     opacity: 0;
     margin-bottom: 4rem;
