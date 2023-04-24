@@ -6,7 +6,7 @@ import { TbBrandNextjs } from "react-icons/tb"
 import { FaNode } from "react-icons/fa"
 import { FiFigma } from "react-icons/fi"
 import { BsBootstrapFill, BsGit, BsGithub } from "react-icons/bs"
-import { SiMysql } from "react-icons/si"
+import { SiMysql, SiJest } from "react-icons/si"
 
 
 import { Footer } from '../../components/footer'
@@ -53,8 +53,8 @@ export function Skills() {
               </div>
               
               <div className="box">
-              <SiTypescript className='icon'/>
-               <span>Typescript</span>
+              <SiJest className='icon'/>
+               <span>Jest</span>
               </div>
               
               <div className="box">
