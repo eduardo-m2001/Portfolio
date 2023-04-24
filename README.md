@@ -12,7 +12,7 @@ ___
 ## 🎨 Layout
 A página inicial em formato desktop é vista na imagem abaixo:
 
-![Portifólio"](./assets/portifolioimg.png)
+![portifolioimg](https://user-images.githubusercontent.com/88609782/234053945-e35540d2-3ada-4927-acb2-60d615c13460.jpg)
 
 ___
 
@@ -30,4 +30,4 @@ As seguintes tecnologias foram empregadas na criação deste projeto:
 ___
 
 
-[O resultado FINAL pode ser visto aqui](https://rocket-foodexplorer.netlify.app/)
+[O resultado FINAL pode ser visto aqui](https://eduardo-medeiros.netlify.app/)
