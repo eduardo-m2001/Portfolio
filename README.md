@@ -1,7 +1,7 @@
 ## 💻 Sobre
 Olá, me chamo Eduardo Medeiros. 👋
 
-Seja bem vindo ao meu Portfólio, aqui conto um pouco sobre minha tragetória, meus projetos, as stacks que eu trabalho, minha formação, cursos e muito mais..
+Seja bem vindo ao meu Portfólio, aqui conto um pouco sobre minha trajetória, meus projetos, as stacks que eu trabalho, minha formação, cursos e muito mais..
 
 Para ser bem sincero, passei mais tempo elaborando o portfólio do que codando em si. Eu queria que o portfólio fosse algo simples e prático, mas com personalidade, que de fato transparecesse um pouco de mim..
 
