@@ -61,7 +61,6 @@ export const Container = styled.div`
     h1 span:hover {
         color: #6a3093;  
         cursor: pointer;
-        font-size: 8rem;
         filter: brightness(1.7);
     }
 

@@ -34,10 +34,10 @@ export function About() {
               <span>m</span>
               <span>.</span>
             </h1>
-                    <p>Desde que me interessei pela área da programação, estudo diariamente para conseguir a minha primeira oportunidade. A 2 anos venho desenvolvendo diversos projetos para colocar em prática todo o meu conhecimento. Tenho facilidade de aprendizado, boa comunicação e a todo momento busco me aprimorar cada vez mais.</p>
+                    <p>Desde que me interessei pela área da programação, estudo diariamente para melhorar minhas habilidades como desenvolvedor. A 2 anos venho desenvolvendo diversos projetos para colocar em prática todo o meu conhecimento. Tenho facilidade de aprendizado, boa comunicação e a todo momento busco me aprimorar cada vez mais.</p>
                     <p>Estou cursando "Analise e Desenvolvimento de Sistemas" e irei me formar no segundo semestre de 2023.</p>
                     <p>Fiz diversos cursos na área da programação, dentre eles "Explorer" da Rocketseat, "B7Web" do Bonyek Lacerda, entre outros.</p>
-                    <p>Possuo inglês Intermediário.</p>
+                    <p>Possuo Inglês e Espanhol intermediário.</p>
             </div>
           </main>
 
